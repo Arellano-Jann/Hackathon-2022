@@ -21,7 +21,7 @@ label lloyd_evening:
     play sound "audio/l/im a cs major.mp3" volume 2
     show lloyd disgusted
     p "But you're like, so smart"
-    p "obviously you're not smelling as bad as me becuase you don't take as long as I do to finish the homework"
+    p "Obviously you're not smelling as bad as me because you don't take as long as I do to finish the homework"
 
     show lloyd uwu
     play sound "audio/l/im not that smart.mp3" volume 2
@@ -32,7 +32,7 @@ label lloyd_evening:
 
     p "Whoa Whoa Whoa!"
     p "What's that tab I see?"
-    P "uhhh... Octopus videos?"
+    p "uhhh... Octopus videos?"
 
     play sound "audio/l/ehh.mp3"
     show lloyd uwu
