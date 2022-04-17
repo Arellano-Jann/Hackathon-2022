@@ -12,6 +12,8 @@ define p = Character("[name]")
 define z = Character("Zeus")
 
 # Background
+init:
+    image black = Solid("#000000")
 
 # The game starts here by asking user name.
 # https://sonalsart.com/how-do-i-enter-text-in-renpy/#:~:text=How%20do%20I%20enter%20text%20in%20Renpy%3F%20With,be%20saved%20in%20a%20variable%20or%20otherwise%20processed.
@@ -27,11 +29,6 @@ label start:
     scene kc morning
     with fade
 
-    # This shows a character sprite. A placeholder is used, but you can
-    # replace it by adding a file named "eileen happy.png" to the images
-    # directory.
-    # show z 
-
     # Dream...
     z "[name]! [name]!"
     z "You lonely, lonely disgraceful disappointment!"
@@ -39,10 +36,15 @@ label start:
     z "If by the end of the day, YOU don't find a date... YOU SHALL NOT LIVE"
     z "So by the time the clock strikes midnight, YOU shall be smited!!"
     z "Turned to ashes and forever forgotten"
-    z "[name]! [name]! YOU HAVE BEEN WARNED!!" with pause(1.5)
+    z "[name]! [name]! YOU HAVE BEEN WARNED!!"
 
     # should fade to black
+<<<<<<< HEAD
     image black = Solid("#00000000")
+=======
+    scene black
+    with fade
+>>>>>>> 719fe5103cc62aaf2b13da290927bd09da0931dc
 
     # wakes up in bedroom, remember to put in pic
     p "{i}huhhhh...{/i}"
@@ -72,8 +74,8 @@ label start:
             p "{i}I AM GOING TO BE SO LATE TO CLASS!{/i}"
             jump lancaster_morning
 
-        "Go to the WPEB":
-            p "{i}I wonder if Lloyd's at WPEB{/i}"
+        "Go to the KC":
+            p "{i}I wonder if Lloyd's at KC{/i}"
             p "{i}I could really use his help on this homework{/i}"
             jump lloyd_morning
         
