@@ -84,7 +84,7 @@ label lilith_afternoon:
             show btggf loving
             btggf "AWOOGA!!"
         
-            play sound "audio/gurgle.mp3"
+            play sound "audio/gurgle ah.mp3"
             btggf "{i}gurgles{/i}"
             
             show btggf proud
