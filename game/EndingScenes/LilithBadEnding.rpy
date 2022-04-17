@@ -1,5 +1,5 @@
 label lilith_bad_ending:
-    #scene bg satanicritual
+    scene ritual
     play music "audio/mental trip.mp3"
 
     "..."
