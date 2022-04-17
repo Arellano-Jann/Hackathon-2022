@@ -74,8 +74,6 @@ label lilith_morning:
 
             btggf "You asked for it..."
 
-            # $ lilith_flag = False
-            # jump ending_scenes
             jump lilith_bad_ending
 
         "Leave it alone and ask what her major is":
@@ -108,9 +106,8 @@ label lilith_morning:
             btggf "I knew it!"
             btggf "You asked for it..."
 
-            $ lilith_flag = False
-            jump ending_scenes
-    
+            jump lilith_bad_ending
+
     p "Let's go right now!"
 
     play sound "audio/nice medium.mp3"
@@ -121,5 +118,4 @@ label lilith_morning:
     show btggf neutral
     btggf "Let me put my docs on... my doc martens?"
 
-    $ lilith_afternoon_flag = True
-    jump afternoon
+    jump lilith_afternoon
