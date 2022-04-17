@@ -1,4 +1,5 @@
 label lloyd_good_ending:
+    #play background music
     scene kc night
     with fade
 
@@ -37,5 +38,10 @@ label lloyd_good_ending:
 
     scene black
     with fade
+
+    z "You did it!"
+    z "You got a date, and with such a nice boy, too!"
+    z "Maybe your grades will improve for once, huh?"
+    z "Good job."
 
     jump end_credits
