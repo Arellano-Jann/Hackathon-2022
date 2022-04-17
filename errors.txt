@@ -2,9 +2,21 @@
 errors listed below, and try again.
 
 
-File "game/MorningChapter/LilithMorning.rpy", line 87: expected menuitem
-    show btggf neutral
-    ^
+File "game/EveningChapter/LancasterEvening.rpy", line 1: expected statement.
+    from msilib.schema import EventMapping
+               ^
+
+File "game/script.rpy", line 42: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/script.rpy", line 44: expected statement.
+    =======
+          ^
+
+File "game/script.rpy", line 47: expected statement.
+    >>>>>>> 719fe5103cc62aaf2b13da290927bd09da0931dc
+                                                    ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Sat Apr 16 18:58:31 2022
+Sat Apr 16 19:19:40 2022
