@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/MorningChapter/LloydMorning.rpy", line 31: expected statement.
-    badpts++
-          ^
-
-File "game/MorningChapter/LloydMorning.rpy", line 37: expected statement.
-    goodpts++
-           ^
+File "game/MorningChapter/LloydMorning.rpy", line 10: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation.
+    zoom .5
+    ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Sat Apr 16 20:29:37 2022
+Sat Apr 16 20:52:04 2022
