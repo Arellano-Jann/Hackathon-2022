@@ -1,4 +1,4 @@
-label lilithmorning:
+label lilith_morning:
     scene bg joe morning
     play music "audio/stardewheavy.opus" loop fadein 0.5 volume 0.75
     
@@ -72,6 +72,44 @@ label lilithmorning:
 
             btggf "You asked for it..."
 
-            #satanic ritual 
+            jump to lilith_bad_ending
+
         "Leave it alone and ask what her major is":
-            blah
+            play sound "mm soft.mp3"
+            show btggf neutral
+            btggf "Thanks for dropping it."
+
+    play sound "artist believe.mp3"
+    #show btggf proud
+    btggf "Believe it or not, I'm an AMAZING artist."
+
+    menu:
+        show btggf neutral
+        btggf "Do you maybe want to grab food sometime? I can show you my work."
+
+        "Yes":
+            play sound "understand me.mp3"
+            show btggf loving
+            btggf "I knew you'd understand me!"
+
+            show btggf neutral
+            btggf "Let's do it."
+
+        "No":
+            play sound "i knew it.mp3"
+            show btggf cheeky
+            btggf "I knew it..."
+
+            show btggf angry
+            btggf "I knew it!"
+            btggf "You asked for it..."
+
+            jump to lilith_bad_ending
+    
+    p "Let's go right now!"
+
+    play sound "nice medium.mp3"
+    show btggf loving
+    btggf "I love the enthusiasm!"
+
+    jump to lilith_afternoon

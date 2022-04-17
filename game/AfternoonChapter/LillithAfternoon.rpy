@@ -1,2 +1,2 @@
 label lilith_afternoon:
-    jump evening
+    jump lilith_evening
