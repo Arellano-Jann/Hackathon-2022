@@ -1,6 +1,6 @@
 label lilith_bad_ending:
     scene ritual
-    play music "audio/mental trip.mp3"
+    play music "audio/bggtf/mental trip.mp3"
 
     "..."
     "..."
@@ -10,15 +10,11 @@ label lilith_bad_ending:
 
     show btggf satanic
 
-    play sound "audio/satan asmr.mp3"
+    play sound "audio/bggtf/satan asmr.mp3"
     btggf "{i}Ave satanas...{/i}"
     btggf "{i}I call upon you...{/i}"
-
-    play sound "audio/satan asmr.mp3"
     btggf "{i}I offer to you this virgin...{/i}"
     btggf "{i}May you feast upon this soul...{/i}"
-
-    play sound "audio/satan asmr.mp3"
     btggf "{i}...and accept my prayer...{/i}"
     btggf "{i}NEMA!{/i}"
 

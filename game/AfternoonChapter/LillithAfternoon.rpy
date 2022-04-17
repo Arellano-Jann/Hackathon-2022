@@ -1,8 +1,8 @@
 label lilith_afternoon:
-    play music "audio/stardew.opus" fadein 0.5 volume 0.5
+    play music "audio/bggtf/stardew.opus" fadein 0.5 volume 0.5
     scene den no table
     
-    play sound "audio/shame loud.mp3"
+    play sound "audio/bgtf/shame loud.mp3"
     show btggf cheeky
     btggf "So anyway yeah, I've done things I'm ashamed of."
 
@@ -11,15 +11,15 @@ label lilith_afternoon:
         btggf "We should probably grab some food... what do you feel like having?"
 
         "Pizza in a cup":
-            play sound "audio/mm soft.mp3"
+            play sound "audio/bggtf/mm soft.mp3"
             btggf "This is pretty good."
 
         "Pizza in a cup but tastier":
-            play sound "audio/oh yeah.mp3"
+            play sound "audio/bggtf/oh yeah.mp3"
             show btggf loving
             btggf "This is so good!! YUM!!!"
     
-    play sound "audio/smth in pizza i think.mp3"
+    play sound "audio/bggtf/smth in pizza i think.mp3"
     show btggf angry
     btggf "Ugh... I think there was something... in that pizza..."
 
@@ -35,7 +35,7 @@ label lilith_afternoon:
             btggf "After everything we did together?? Are you kidding me??"
             btggf "You're scum."
 
-            play sound "audio/ugh.mp3"
+            play sound "audio/bggtf/ugh.mp3"
             show btggf cheeky
             btggf "I don't know why I ever thought you'd be any good for me."
 
@@ -45,7 +45,7 @@ label lilith_afternoon:
             jump lilith_bad_ending
 
         "Help her":
-            play sound "audio/spit.mp3"
+            play sound "audio/bggtf/spit.mp3"
             "You spit in her mouth to make her feel better."
 
             show btggf angry
@@ -55,11 +55,11 @@ label lilith_afternoon:
             "......"
             "........."
 
-            play sound "audio/awooga.mp3"
+            play sound "audio/bggtf/awooga.mp3"
             show btggf loving
             btggf "AWOOGA!!"
         
-            play sound "audio/gurgle.mp3"
+            play sound "audio/bggtf/gurgle.mp3"
             btggf "{i}gurgles{/i}"
             
             show btggf neutral

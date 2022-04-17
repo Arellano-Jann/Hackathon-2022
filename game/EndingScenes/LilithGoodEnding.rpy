@@ -11,16 +11,16 @@ label lilith_good_ending:
     show btggf loving
     btggf "...but you do."
 
-    play sound "audio/awooga.mp3"
+    play sound "audio/bggtf/awooga.mp3"
     btggf "Kiss me!"
 
-    play sound "audio/daddy.mp3"
+    play sound "audio/bggtf/daddy.mp3"
     "..."
 
-    play sound "audio/spit.mp3"
+    play sound "audio/bggtf/spit.mp3"
     "..."
 
-    play sound "audio/oh yeah.mp3"
+    play sound "audio/bggtf/oh yeah.mp3"
     "..."
     
     scene black
