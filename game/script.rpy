@@ -42,7 +42,7 @@ label start:
     # should fade to black
     scene bg "#000000"
 
-    # wakes up in bedroom
+    # wakes up in bedroom, remember to put in pic
     p "{i}huhhhh...{/i}"
 
     menu:
