@@ -4,4 +4,4 @@ label afternoon:
     elif (lilith_afternoon_flag):
         jump lilith_afternoon
     elif (lloyd_afternoon_flag):
-        jump lloyd_afternoon)
+        jump lloyd_afternoon

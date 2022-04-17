@@ -2,17 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 42: expected statement.
-    <<<<<<< HEAD
-                ^
-
-File "game/script.rpy", line 44: expected statement.
-    =======
-          ^
-
-File "game/script.rpy", line 47: expected statement.
-    >>>>>>> 719fe5103cc62aaf2b13da290927bd09da0931dc
-                                                    ^
+File "game/AfternoonChapter/Afternoon.rpy", line 7: end of line expected.
+    jump lloyd_afternoon)
+                        ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Sat Apr 16 19:21:45 2022
+Sat Apr 16 19:57:30 2022
