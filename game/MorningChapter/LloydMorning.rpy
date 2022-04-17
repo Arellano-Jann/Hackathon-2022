@@ -1,6 +1,7 @@
 # points
-$ goodpts = 0;
-$ badpts = 0;
+init:
+    $ goodpts = 0;
+    $ badpts = 0;
 
 label lloyd_morning:
     # play background music
@@ -15,7 +16,7 @@ label lloyd_morning:
     p "...same old same old"
     p "maybe looking for something more than the typical"
 
-    play sound "audio/l/uegh 1.mp3"
+    play sound "audio/l/uegh 1.mp3" volume 4
     show lloyd neutral
     
     p "Nothing! I didn't say anything!"
@@ -32,14 +33,14 @@ label lloyd_morning:
             $ badpts += 1
             p "You have to help me, I don't care, you are super smart so you don't need to do physics"
             show lloyd angry
-            play sound "audio/l/why 1.mp3"
+            play sound "audio/l/why.mp3" volume 1.5
             lloyd "You are so rude! Fine! But this is the last time I will ever help you!"
         
         "Try to convince him, he's a busy man":
             $ goodpts += 1
             p "But I would really appreciate it, you are literally the smartest person in the entire world!"
             show lloyd uwu
-            play sound "audio/l/im not that smart.mp3"
+            play sound "audio/l/im not that smart.mp3" volume 2
             lloyd "... you're too kind... alright alright I'll help you out"
 
     p "Great!...Let's get going!"
