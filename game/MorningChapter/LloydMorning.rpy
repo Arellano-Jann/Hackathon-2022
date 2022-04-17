@@ -42,5 +42,6 @@ label lloyd_morning:
 
     p "Great!...Let's get going!"
 
-    $ lloyd_morning_flag = True
-    jump afternoon
+    # $ lloyd_morning_flag = True
+    # jump afternoon
+    jump lloyd_afternoon
