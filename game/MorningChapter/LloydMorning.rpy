@@ -15,7 +15,15 @@ label lloyd_morning:
     p "...same old same old"
     p "maybe looking for something more than the typical"
 
-    # play sound 
+    # play sound uhhh
+    
+    p "Nothing! I didn't say anything!"
+    p "I just need some help with my homework... yes homework!"
+    p "That is if you can help me out!"
+
+    menu:
+        lloyd "I would but"
+        #play sound uhhh
 
 
 
