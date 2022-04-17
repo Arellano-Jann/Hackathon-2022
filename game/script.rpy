@@ -44,7 +44,6 @@ label start:
     # should fade to black
     image black = Solid("#00000000")
 
-
     # wakes up in bedroom, remember to put in pic
     p "{i}huhhhh...{/i}"
 
@@ -81,10 +80,9 @@ label start:
         "Go to the Joe":
             p "{i}Well I'm already late{/i}"
             p "{i}Might as well grab some food at the Joe or something{/i}"
-            jump lillithmorning
+            jump lilith_morning
 
     # retur_creditsn
-
 
 label end_credits:
     return
