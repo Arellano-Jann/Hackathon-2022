@@ -1,2 +1,2 @@
-# label lloyd_bad_ending:
-#     jump end_credits
+label lloyd_bad_ending:
+    jump end_credits

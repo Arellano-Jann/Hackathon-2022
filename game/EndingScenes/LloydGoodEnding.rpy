@@ -1,3 +1,3 @@
-# jump lloyd_good_ending:
-#     jump end_credits
+jump lloyd_good_ending:
+    jump end_credits
 

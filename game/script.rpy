@@ -100,7 +100,7 @@ label end_credits:
     "Jann Arellano, Lyssie Brown, Rubi Dionisio, Kirin Hardinger, and Alex Mozqueda"
     "Art and Design by Lyssie Brown and Kirin Hardinger"
     "BTGGF Voice: Kirin Hardinger"
-    "Lloyd Voice: Lloyd Gonzales"
+    "Lloyd Voic: Lloyd Gonzales"
     "Programming by the BTC LLC"
     "Gitmaster: Jann Arellano"
     "Emotional support by Connor the Cow and Huckleberry the Giraffe"

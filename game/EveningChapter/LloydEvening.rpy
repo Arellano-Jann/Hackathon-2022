@@ -25,12 +25,34 @@ label lloyd_evening:
 
     show lloyd uwu
     play sound "audio/l/im not that smart.mp3" volume 2
-    
+    lloyd "You're too generous"
+
+    show lloyd happy
     lloyd "But anyways, I'll just show you what I did"
 
+    p "Whoa Whoa Whoa!"
+    p "What's that tab I see?"
+    P "uhhh... Octopus videos?"
+
+    play sound "audio/l/ehh.mp3"
+    show lloyd uwu
+    lloyd "uhhh... that's not mine!"
+
+    menu:
+        p "{i}hmmm I'm not sure if he's actually serious about it{/i}"
+
+        "Should I be grossed out?":
+            $ badpts += 1
 
 
+        "I should get him to watch some with me":
+            $ goodpts += 1
 
-    $ lloyd_flag = True
-    $ lloyd_flag = False # set to False for bad ending
-    jump evening
+
+    if(badpts > goodpts):
+        jump lloyd_bad_ending
+    elif(goodpts > badpts):
+        jump lloyd_good_ending
+    # $ lloyd_flag = True
+    # $ lloyd_flag = False # set to False for bad ending
+    # jump evening
