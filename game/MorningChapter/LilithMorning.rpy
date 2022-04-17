@@ -48,6 +48,7 @@ label lilith_morning:
 
     p "I'm sorry! Um... my name is [name]. What's yours?"
 
+    show btggf proud
     l "That's more like it."
 
     play sound "audio/mm soft.mp3"
@@ -81,7 +82,7 @@ label lilith_morning:
             btggf "Thanks for dropping it."
 
     play sound "audio/mm soft.mp3"
-    #show btggf proud
+    show btggf proud
     btggf "Believe it or not, I'm an AMAZING artist."
 
     show btggf neutral
@@ -117,6 +118,7 @@ label lilith_morning:
     play sound "audio/putting on docs.mp3"
     show btggf neutral
     btggf "Let me put my docs on... my doc martens?"
+    btggf "It's okay, I think it's cute that you don't know what docs are."
 
     $ lilith_afternoon_flag = True
     jump afternoon

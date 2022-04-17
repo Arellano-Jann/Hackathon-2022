@@ -1,10 +1,9 @@
 label lilith_afternoon:
     play music "audio/stardew.opus" fadein 0.5 volume 0.75
     #scene eating_area fade
-    #show btggf pride
     
     play sound "audio/shame loud.mp3"
-    show btggf cheeky
+    show btggf proud
     btggf "So anyway yeah, I've done things I'm ashamed of."
 
     show btggf neutral
@@ -34,7 +33,7 @@ label lilith_afternoon:
 
     show btggf neutral
     btggf "Now that that's taken care of..."
-    
+
     menu:
         btggf "We should probably grab some food... what do you feel like having?"
 
@@ -88,7 +87,7 @@ label lilith_afternoon:
             play sound "audio/gurgle.mp3"
             btggf "{i}gurgles{/i}"
             
-            show btggf neutral
+            show btggf proud
             btggf "Just what I needed."
 
     show btggf cheeky
