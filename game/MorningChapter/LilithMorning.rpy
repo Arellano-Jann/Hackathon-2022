@@ -1,10 +1,6 @@
 label lilith_morning:
     scene joe morning
-<<<<<<< HEAD
-    play music "audio/stardew.opus" fadein 0.5
-=======
     play music "audio/stardew.opus" fadein 0.5 volume 0.5
->>>>>>> b983c543ea276da0e55e86d95c314106217cc105
     
     play sound "audio/ugh.mp3"
     show btggf angry

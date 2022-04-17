@@ -1,12 +1,6 @@
 label lilith_afternoon:
-<<<<<<< HEAD
-    play music "audio/stardew.opus" fadein 0.5
-    #scene eating_area fade
-    #show btggf pride
-=======
     play music "audio/stardew.opus" fadein 0.5 volume 0.5
     scene den no table
->>>>>>> b983c543ea276da0e55e86d95c314106217cc105
     
     play sound "audio/shame loud.mp3"
     show btggf cheeky
