@@ -112,4 +112,8 @@ label lilith_morning:
     show btggf loving
     btggf "I love the enthusiasm!"
 
+    play sound "putting on docs.mp3"
+    show btggf neutral
+    btggf "Let me put my docs on... my doc martens?"
+
     jump to lilith_afternoon
