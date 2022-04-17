@@ -8,9 +8,7 @@ label lilith_bad_ending:
     "..."
     p "{i}Oh... my head hurts...{/i}"
 
-    #show btggf satan
-    show btggf angry
-
+    show btggf satanic
     play sound "audio/satan asmr.mp3"
     btggf "{i}Ave satanas...{/i}"
     btggf "{i}I call upon you...{/i}"
