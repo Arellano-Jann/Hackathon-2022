@@ -8,10 +8,12 @@ label lancaster_morning:
     p "{i}But even if I do get smited at least I get to see my favorite teacher today.{/i}"
 
     # show lancaster neutral
-
     dL "Hello class!"
+    dL "I see that [name] is late yet again..."
+
+    menu:
+        "I'm sorry, I'm just... distracted":
+            blah.
+        ""
     
-
-
-    $ lancaster_afternoon_flag = True
-    jump afternoon
+    jump lancaster_afternoon

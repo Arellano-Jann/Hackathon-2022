@@ -15,7 +15,7 @@ label lloyd_morning:
     p "...same old same old"
     p "maybe looking for something more than the typical"
 
-    play sound "audio/l/uhhh 1.mp3"
+    play sound "audio/l/uegh 1.mp3"
     show lloyd neutral
     
     p "Nothing! I didn't say anything!"
@@ -32,7 +32,7 @@ label lloyd_morning:
             # badpts += 1
             p "You have to help me, I don't care, you are super smart so you don't need to do physics"
             show lloyd angry
-            play sound "audio/l/lloyd why 1.mp3"
+            play sound "audio/l/why 1.mp3"
             lloyd "You are so rude! Fine! But this is the last time I will ever help you!"
         
         "Try to convince him, he's a busy man":
