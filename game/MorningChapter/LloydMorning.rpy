@@ -1,3 +1,2 @@
-# label lloyd_morning:
-#     jump
-#
+label lloyd_morning:
+    jump afternoon
