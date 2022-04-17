@@ -6,7 +6,7 @@ label lloyd_morning:
     # play background music
     scene kc morning
     with fade
-
+    
     show lloyd happy
     lloyd "Hey [name]! It's nice to see you here!"
     lloyd "To what do I owe the pleasure?"
@@ -42,5 +42,5 @@ label lloyd_morning:
 
     p "Great!...Let's get going!"
 
-    $ lloyd_morning_flag = True
+    # $ lloyd_morning_flag = True
     jump afternoon

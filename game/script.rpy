@@ -4,7 +4,7 @@
 # name of the character.
 
 define l = Character("???")
-define lil = Character("Lillith")
+define lil = Character("Lilith")
 define btggf = Character("BTGGF")
 define lloyd = Character("Lloyd")
 define dL = Character("Dr. Lancaster")
