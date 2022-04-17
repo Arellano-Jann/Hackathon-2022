@@ -13,7 +13,16 @@ label lancaster_morning:
 
     menu:
         "I'm sorry, I'm just... distracted":
-            blah.
-        ""
+            #play sound "audio\dl\" umm?
+            dL "Uhhh..."
+            
+            #play sound "audio/dl/" I don't need to know
+            dL "I don't need to know."
+
+        "It won't happen again!"
+            #play sound "audio\dl\" that's not good practice
+            dL "That's not good practice."
+    
+
     
     jump lancaster_afternoon
