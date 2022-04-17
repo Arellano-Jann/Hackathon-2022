@@ -1,6 +1,6 @@
 label lilith_afternoon:
-    play music "audio/stardew.opus" fadein 0.5 volume 0.75
-    #scene eating_area fade
+    play music "audio/stardew.opus" fadein 0.5 volume 0.5
+    scene den no table
     
     play sound "audio/shame loud.mp3"
     show btggf proud
@@ -49,6 +49,9 @@ label lilith_afternoon:
     play sound "audio/smth in pizza i think.mp3"
     show btggf angry
     btggf "Ugh... I think there was something... in that pizza..."
+
+    scene school bathroom
+    with fade
 
     show btggf cheeky
     menu:
