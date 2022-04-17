@@ -39,7 +39,7 @@ label start:
     stop music fadeout 1.0
 
     # Dream...
-    play music "audio/thunderstruck.mp3" fadein 0.5 volume .25
+    play music "audio/thunder.mp3" fadein 0.5 volume .25
     scene galaxy
     with fade
 
