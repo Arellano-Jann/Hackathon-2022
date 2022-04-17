@@ -96,4 +96,11 @@ label start:
 
 
 label end_credits:
+    "The BTC LLC"
+    "Jann Arellano, Lyssie Brown, Rubi Dionisio, Kirin Hardinger, and Alex Mozqueda"
+    "Art and Design by Lyssie Brown and Kirin Hardinger"
+    "Programming by the BTC LLC"
+    "Gitmaster: Jann Arellano"
+    "Emotional support by Connor the Cow and Huckleberry the Giraffe"
+    "Thank you"
     return
