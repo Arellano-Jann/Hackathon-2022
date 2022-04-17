@@ -42,7 +42,7 @@ label start:
     # should fade to black
     scene bg "#000000"
 
-    # wakes up in bedroom
+    # wakes up in bedroom, remember to put in pic
     p "{i}huhhhh...{/i}"
 
     menu:
@@ -58,6 +58,7 @@ label start:
     
     p "{i}What's the worst that could happen?{/i}"
     p "{i}It's only college{/i}"
+
 
 
     # This ends the game.
