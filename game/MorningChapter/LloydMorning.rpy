@@ -18,5 +18,5 @@ label lloyd_morning:
     # play sound 
 
 
-
+    $ lloyd_morning_flag = True
     jump afternoon
