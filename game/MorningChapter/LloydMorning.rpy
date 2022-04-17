@@ -29,14 +29,14 @@ label lloyd_morning:
         lloyd "I can help you out some other time though"
 
         "He needs to help me now!":
-            # badpts += 1
+            $ badpts += 1
             p "You have to help me, I don't care, you are super smart so you don't need to do physics"
             show lloyd angry
             play sound "audio/l/why 1.mp3"
             lloyd "You are so rude! Fine! But this is the last time I will ever help you!"
         
         "Try to convince him, he's a busy man":
-            # goodpts += 1
+            $ goodpts += 1
             p "But I would really appreciate it, you are literally the smartest person in the entire world!"
             show lloyd uwu
             play sound "audio/l/im not that smart.mp3"
