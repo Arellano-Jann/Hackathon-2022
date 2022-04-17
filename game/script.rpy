@@ -39,12 +39,8 @@ label start:
     z "[name]! [name]! YOU HAVE BEEN WARNED!!"
 
     # should fade to black
-<<<<<<< HEAD
-    image black = Solid("#00000000")
-=======
     scene black
     with fade
->>>>>>> 719fe5103cc62aaf2b13da290927bd09da0931dc
 
     # wakes up in bedroom, remember to put in pic
     p "{i}huhhhh...{/i}"
