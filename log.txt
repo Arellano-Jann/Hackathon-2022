@@ -1,40 +1,31 @@
-Sat Apr 16 19:02:29 2022
+Sat Apr 16 19:21:44 2022
 Windows-10-10.0.19041
 Ren'Py 7.4.11.2266
  
 
-Bootstrap to the start of init.init took 0.15s
+Bootstrap to the start of init.init took 0.16s
 Early init took 0.01s
-Loader init took 0.09s
+Loader init took 0.10s
 Loading error handling took 0.05s
-Loading script took 0.51s
-Loading save slot metadata. took 0.05s
+Loading script took 0.75s
+Loading save slot metadata. took 0.07s
 Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.15s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Dump and make backups. took 0.13s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.03s
+
+File "game/script.rpy", line 42: expected statement.
+    <<<<<<< HEAD
+                ^
+
+File "game/script.rpy", line 44: expected statement.
+    =======
+          ^
+
+File "game/script.rpy", line 47: expected statement.
+    >>>>>>> 719fe5103cc62aaf2b13da290927bd09da0931dc
+                                                    ^
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: "Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.01s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.01s
-Load screen analysis took 0.04s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.24s
+Interface start took 0.33s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -46,39 +37,3 @@ Version: '4.6.148201 Compatibility Profile Context 20.50.02.06 27.20.15002.6001'
 Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
 Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 42, in script
-    z "[name]! [name]! YOU HAVE BEEN WARNED!!" with pause(1.5)
-  File "C:\Users\admoz\Downloads\renpy-7.4.11-sdk/renpy/ast.py", line 720, in execute
-    say_menu_with(self.with_, renpy.game.interface.set_transition)
-  File "C:\Users\admoz\Downloads\renpy-7.4.11-sdk/renpy/ast.py", line 538, in say_menu_with
-    what = renpy.python.py_eval(expression)
-  File "C:\Users\admoz\Downloads\renpy-7.4.11-sdk/renpy/python.py", line 2276, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "C:\Users\admoz\Downloads\renpy-7.4.11-sdk/renpy/python.py", line 2269, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 42, in <module>
-    z "[name]! [name]! YOU HAVE BEEN WARNED!!" with pause(1.5)
-NameError: name 'pause' is not defined
-
-While running game code:
-  File "game/script.rpy", line 42, in script
-    z "[name]! [name]! YOU HAVE BEEN WARNED!!" with pause(1.5)
-  File "game/script.rpy", line 42, in <module>
-    z "[name]! [name]! YOU HAVE BEEN WARNED!!" with pause(1.5)
-NameError: name 'pause' is not defined
-
-Full traceback:
-  File "game/script.rpy", line 84, in script
-    jump lillithmorning
-  File "C:\Users\admoz\Downloads\renpy-7.4.11-sdk/renpy/ast.py", line 1757, in execute
-    rv = renpy.game.script.lookup(target)
-  File "C:\Users\admoz\Downloads\renpy-7.4.11-sdk/renpy/script.py", line 918, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'lillithmorning'.
-
-While running game code:
-  File "game/script.rpy", line 84, in script
-    jump lillithmorning
-ScriptError: could not find label 'lillithmorning'.
