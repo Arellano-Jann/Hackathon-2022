@@ -23,9 +23,10 @@ label lilith_good_ending:
     play sound "audio/bggtf/oh yeah.mp3"
     "..."
     
-    scene black
+    scene galaxy
     with fade
 
+    show zeus
     z "You did it... I'm so proud of you."
     z "The bare minimum!"
     z "And with a big t....... goth girlfriend! no less! A BTGGF if you will."

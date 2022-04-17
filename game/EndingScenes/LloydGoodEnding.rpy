@@ -36,9 +36,10 @@ label lloyd_good_ending:
     show lloyd happy
     lloyd "A full game of league! Right now!"
 
-    scene black
+    scene galaxy
     with fade
 
+    show zeus
     z "You did it!"
     z "You got a date, and with such a nice boy, too!"
     z "Maybe your grades will improve for once, huh?"

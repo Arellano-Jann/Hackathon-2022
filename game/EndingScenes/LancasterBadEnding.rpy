@@ -10,9 +10,10 @@ label lancaster_bad_ending:
     play sound "audio/d/but leave it alone.mp3"
     dL "So leave it alone."
 
-    scene black
+    scene galaxy
     with fade
 
+    show zeus
     z "How disappointing..."
     z "Did you really think you could go after a professor?"
     z "SHAMEFUL!"
