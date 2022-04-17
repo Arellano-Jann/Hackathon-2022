@@ -1,7 +1,7 @@
 label lloyd_afternoon:
     scene black
     with fade
-    # play background music
+    play music "audio/Tetris_Marker 07.mp3" fadein 0.5 volume .2
     scene kc night
     with fade
 

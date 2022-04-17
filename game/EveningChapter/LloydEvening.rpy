@@ -1,5 +1,5 @@
 label lloyd_evening:
-    # play background music
+    play music "audio/Tetris_Marker 08.mp3" fadein 0.5 volume .2
     scene den no table
     with fade
 
@@ -42,6 +42,7 @@ label lloyd_evening:
         p "{i}hmmm I'm not sure if he's actually serious about it{/i}"
 
         "Should I be grossed out?":
+            play music "audio/Tetris_Marker 01.mp3" fadein 0.5 volume .2
             $ badpts += 1
             p "EEWW! Who would ever watch such things!"
             play sound "audio/l/laugh.mp3" volume 2
