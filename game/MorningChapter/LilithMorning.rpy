@@ -12,3 +12,9 @@ label lilithmorning:
     play sound "eyes are up here.mp3"
     show btggf angry
     l "My eyes are up here, buddy."
+
+    show btggf cheeky
+    l "Whatever."
+
+    menu:
+        p "{iI should make a good first impression..."
