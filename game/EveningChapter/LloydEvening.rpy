@@ -86,7 +86,7 @@ label lloyd_evening:
             lloyd "uhhh"
             p "Well... uhhhh... that is something...."
             play sound "audio/l/this seems like hentai.mp3" volume 1.5
-            lloyd "I...uhhh... think we've watche denough for now"
+            lloyd "I...uhhh... think we've watched enough for now"
             p "I totally agree"
 
 
