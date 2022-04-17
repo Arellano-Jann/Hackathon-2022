@@ -33,9 +33,10 @@ label lloyd_bad_ending:
     lloyd "So yeah..."
     lloyd "You should leave now."
 
-    scene black
+    scene galaxy
     with fade
 
+    show zeus
     z "Really? He offers to show you his octopus anime?"
     z "And you LOSE?"
     z "To THAT???"

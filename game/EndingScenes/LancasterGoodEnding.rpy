@@ -27,4 +27,13 @@ label lancaster_good_ending:
     show dl neutral
     dL "I appreciate your honesty."
 
+    scene galaxy
+    with fade
+
+    show zeus
+    z "Good for you! ...except you didn't get a date."
+    z "Although... I suppose I'll be kind today."
+    z "After all, you learned the lesson of honesty!"
+    z "I'll call it a win."
+
     jump end_credits

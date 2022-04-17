@@ -44,6 +44,10 @@ label lancaster_afternoon:
 
             "{i}You follow his instructions and cross them, instantly being electrocuted"
 
+            scene galaxy
+            with fade
+
+            show zeus
             z "How disappointing..."
             z "Did you really think you could go after a professor?"
             z "SHAMEFUL!"

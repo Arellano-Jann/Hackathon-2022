@@ -1,101 +1,36 @@
-<<<<<<< HEAD
-Sat Apr 16 21:33:56 2022
-=======
-<<<<<<< HEAD
-Sat Apr 16 21:52:43 2022
-=======
-Sat Apr 16 21:08:38 2022
->>>>>>> 401fac3eaffc875fc84c24680309d249cb0f8590
->>>>>>> 71e4b441e4ac7378ea3437289576c97ca420b6f3
+Sun Apr 17 10:28:40 2022
 Windows-10-10.0.19041
 Ren'Py 7.4.11.2266
  
 
-Bootstrap to the start of init.init took 0.05s
+Bootstrap to the start of init.init took 0.06s
 Early init took 0.00s
-<<<<<<< HEAD
-Loader init took 0.20s
+Loader init took 0.31s
 Loading error handling took 0.02s
-Loading script took 0.16s
-Loading save slot metadata. took 0.02s
-=======
-<<<<<<< HEAD
-Loader init took 0.12s
-Loading error handling took 0.01s
-Loading script took 0.14s
+Loading script took 0.34s
 Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.04s
+Running init code took 0.06s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\Kirin\\AppData\\Roaming/RenPy/backups\\Hackathon-2022':
-Dump and make backups. took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.01s
-DPI scale factor: 1.500000
-=======
-Loader init took 0.05s
-Loading error handling took 0.01s
-Loading script took 0.11s
-Loading save slot metadata. took 0.03s
->>>>>>> 71e4b441e4ac7378ea3437289576c97ca420b6f3
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.05s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Kirin\\AppData\\Roaming/RenPy/backups\\Hackathon-2022':
-Dump and make backups. took 0.08s
+Dump and make backups. took 0.10s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.02s
-<<<<<<< HEAD
 DPI scale factor: 1.500000
-=======
-DPI scale factor: 1.000000
->>>>>>> 401fac3eaffc875fc84c24680309d249cb0f8590
->>>>>>> 71e4b441e4ac7378ea3437289576c97ca420b6f3
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: "Couldn't load nvlib." (can be ignored)
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.02s
+Init translation took 0.03s
 Build styles took 0.00s
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 71e4b441e4ac7378ea3437289576c97ca420b6f3
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.02s
-Prepare screens took 0.04s
-<<<<<<< HEAD
-=======
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1600)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'Intel'
-Renderer: 'Intel(R) Iris(R) Xe Graphics'
-Version: '4.6.0 - Build 27.20.100.8853'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2458, 1383) drawable=(2458, 1383)
-=======
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.05s
->>>>>>> 71e4b441e4ac7378ea3437289576c97ca420b6f3
+Prepare screens took 0.06s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.03s
 Running _start took 0.00s
@@ -110,17 +45,5 @@ Vendor: 'Intel'
 Renderer: 'Intel(R) Iris(R) Xe Graphics'
 Version: '4.6.0 - Build 27.20.100.8853'
 Display Info: None
-<<<<<<< HEAD
-Screen sizes: virtual=(1920, 1080) physical=(1818, 1023) drawable=(1818, 1023)
-=======
-Screen sizes: virtual=(1920, 1080) physical=(1383, 778) drawable=(1383, 778)
->>>>>>> 401fac3eaffc875fc84c24680309d249cb0f8590
->>>>>>> 71e4b441e4ac7378ea3437289576c97ca420b6f3
+Screen sizes: virtual=(1920, 1080) physical=(2453, 1380) drawable=(2453, 1380)
 Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
