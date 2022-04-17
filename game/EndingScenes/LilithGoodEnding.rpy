@@ -22,5 +22,12 @@ label lilith_good_ending:
 
     play sound "audio/oh yeah.mp3"
     "..."
+    
+    scene black
+    with fade
+
+    z "You did it... I'm so proud of you."
+    z "The bare minimum!"
+    z "Good for you."
 
     jump end_credits
