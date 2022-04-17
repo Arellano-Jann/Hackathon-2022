@@ -33,7 +33,7 @@ label lloyd_morning:
             $ badpts += 1
             p "You have to help me, I don't care, you are super smart so you don't need to do physics"
             show lloyd angry
-            play sound "audio/l/why.mp3" volume 1.5
+            play sound "audio/l/why.mp3" volume 2
             lloyd "You are so rude! Fine! But this is the last time I will ever help you!"
         
         "Try to convince him, he's a busy man":
