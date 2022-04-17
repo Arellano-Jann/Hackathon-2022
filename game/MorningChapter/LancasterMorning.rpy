@@ -1,2 +1,3 @@
-# label lancaster_morning:
-#     jump afternoon
+label lancaster_morning:
+    $ lancaster_afternoon_flag = True
+    jump afternoon
