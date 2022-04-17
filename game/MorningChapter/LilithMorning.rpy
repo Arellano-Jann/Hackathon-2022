@@ -1,6 +1,10 @@
 label lilith_morning:
     scene joe morning
-    play music "audio/stardew.opus" fadein 0.5 volume 0.75
+<<<<<<< HEAD
+    play music "audio/stardew.opus" fadein 0.5
+=======
+    play music "audio/stardew.opus" fadein 0.5 volume 0.5
+>>>>>>> b983c543ea276da0e55e86d95c314106217cc105
     
     play sound "audio/ugh.mp3"
     show btggf angry
@@ -48,7 +52,6 @@ label lilith_morning:
 
     p "I'm sorry! Um... my name is [name]. What's yours?"
 
-    show btggf proud
     l "That's more like it."
 
     play sound "audio/mm soft.mp3"
@@ -73,8 +76,9 @@ label lilith_morning:
 
             btggf "You asked for it..."
 
-            $ lilith_flag = False
-            jump ending_scenes
+            # $ lilith_flag = False
+            # jump ending_scenes
+            jump lilith_bad_ending
 
         "Leave it alone and ask what her major is":
             play sound "audio/mm soft.mp3"
@@ -82,7 +86,7 @@ label lilith_morning:
             btggf "Thanks for dropping it."
 
     play sound "audio/mm soft.mp3"
-    show btggf proud
+    #show btggf proud
     btggf "Believe it or not, I'm an AMAZING artist."
 
     show btggf neutral
@@ -118,7 +122,6 @@ label lilith_morning:
     play sound "audio/putting on docs.mp3"
     show btggf neutral
     btggf "Let me put my docs on... my doc martens?"
-    btggf "It's okay, I think it's cute that you don't know what docs are."
 
     $ lilith_afternoon_flag = True
     jump afternoon
