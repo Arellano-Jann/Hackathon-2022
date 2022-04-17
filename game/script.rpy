@@ -78,7 +78,7 @@ label start:
         "Go to the Joe":
             p "{i}Well I'm already late{/i}"
             p "{i}Might as well grab some food at the Joe or something{/i}"
-            jump lillithmorning
+            jump lillith_morning
 
     # retur_creditsn
 
