@@ -1,6 +1,6 @@
 label lilith_morning:
     scene bg joe morning
-    play music "audio/stardewheavy.opus" loop fadein 0.5 volume 0.75
+    play music "audio/stardewheavy.opus"
     
     play sound "audio/ugh.mp3"
     show btggf angry
@@ -116,4 +116,5 @@ label lilith_morning:
     show btggf neutral
     btggf "Let me put my docs on... my doc martens?"
 
-    jump lilith_afternoon
+    $ lilith_afternoon_flag = True
+    jump afternoon
