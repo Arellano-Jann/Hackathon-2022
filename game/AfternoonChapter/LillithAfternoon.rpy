@@ -12,9 +12,9 @@ label lilith_afternoon:
     "..."
     "..."
 
+    play sound "audio/plz pretty.mp3"
     show btggf cheeky
     menu:
-        play sound "audio/plz pretty.mp3"
         btggf "So... are you going to swipe me in?"
 
         "Yes! Of course, my sexy queen.":
