@@ -32,7 +32,7 @@ label lloyd_good_ending:
     show lloyd neutral
     lloyd "But you know what we could do to help YOU?"
 
-    play sound "audio/l/a full game.mp3" volume 3
+    play sound "audio/l/a full game.mp3" volume 1
     show lloyd happy
     lloyd "A full game of league! Right now!"
 
