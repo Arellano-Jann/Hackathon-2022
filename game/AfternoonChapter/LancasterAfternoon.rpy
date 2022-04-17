@@ -1,4 +1,5 @@
 label lancaster_afternoon:
+    play music "audio/Joan Jett - I Love Rock 'N Roll Instrumental.opus" fadein 0.5 volume .2
     scene breadboard
     with fade
 
