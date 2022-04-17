@@ -1,5 +1,5 @@
 label lloyd_bad_ending:
-    #play background music
+    play music "audio/Tetris_Marker 05.mp3" fadein 0.5 volume .2
     scene kc night
     with fade
 

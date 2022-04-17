@@ -4,7 +4,7 @@ init:
     $ badpts = 0;
 
 label lloyd_morning:
-    # play background music
+    play music "audio/Tetris_Marker 06.mp3" fadein 0.5 volume .2
     scene kc morning
     with fade
 
