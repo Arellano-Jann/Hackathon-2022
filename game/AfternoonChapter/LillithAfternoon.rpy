@@ -1,39 +1,13 @@
 label lilith_afternoon:
-    play music "audio/stardew.opus" fadein 0.5 volume 0.75
+    play music "audio/stardew.opus" fadein 0.5
     #scene eating_area fade
+    #show btggf pride
     
     play sound "audio/shame loud.mp3"
-    show btggf proud
+    show btggf cheeky
     btggf "So anyway yeah, I've done things I'm ashamed of."
 
     show btggf neutral
-    btggf "But it's whatever."
-
-    "..."
-    "..."
-
-    play sound "audio/plz pretty.mp3"
-    show btggf cheeky
-    menu:
-        btggf "So... are you going to swipe me in?"
-
-        "Yes! Of course, my sexy queen.":
-            show btggf loving
-            btggf "I love when my date treats me right!"
-
-            play sound "audio/nice soft.mp3"
-            show btggf neutral
-            btggf "You're not so bad after all, huh?"
-        
-        "Pay for your own food...":
-            show btggf angry
-            play sound "audio/ugh.mp3"
-            btggf "Wow. Okay. I guess I'll do it myself then!"
-            btggf "...asshole..."
-
-    show btggf neutral
-    btggf "Now that that's taken care of..."
-
     menu:
         btggf "We should probably grab some food... what do you feel like having?"
 
@@ -66,9 +40,8 @@ label lilith_afternoon:
             show btggf angry
             btggf "Now you're going to pay."
 
-            # $ lilith_flag = False
-            # jump ending_scenes
-            jump lilith_bad_ending
+            $ lilith_flag = False
+            jump ending_scenes
 
         "Help her":
             play sound "audio/spit.mp3"
@@ -85,17 +58,16 @@ label lilith_afternoon:
             show btggf loving
             btggf "AWOOGA!!"
         
-            play sound "audio/gurgle ah.mp3"
+            play sound "audio/gurgle.mp3"
             btggf "{i}gurgles{/i}"
             
-            show btggf proud
+            show btggf neutral
             btggf "Just what I needed."
 
     show btggf cheeky
     btggf "I don't normally do this..."
     btggf "But I'd like to show you something..."
 
-    # $ lilith_evening_flag = True
-    # $ lilith_flag = True
-    # jump evening
-    jump lilith_good_ending
+    $ lilith_evening_flag = True
+    $ lilith_flag = True
+    jump evening

@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/AfternoonChapter/LillithAfternoon.rpy", line 17: expected menuitem
-    play sound "audio/plz pretty.mp3"
-    ^
+File "game/MorningChapter/LloydMorning.rpy", line 31: expected statement.
+    badpts++
+          ^
+
+File "game/MorningChapter/LloydMorning.rpy", line 37: expected statement.
+    goodpts++
+           ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Sat Apr 16 21:25:02 2022
+Sat Apr 16 20:29:37 2022
