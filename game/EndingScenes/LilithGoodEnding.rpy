@@ -1,5 +1,5 @@
 label lilith_good_ending:
-    scene bg joe night
+    scene joe night
     show btggf cheeky
     btggf "Back to where it all began, huh?"
     btggf "Just this morning..."
