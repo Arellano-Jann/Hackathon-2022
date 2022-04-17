@@ -2,7 +2,7 @@ label lilith_afternoon:
     play music "audio/bggtf/stardew.opus" fadein 0.5 volume 0.5
     scene den no table
     
-    play sound "audio/bgtf/shame loud.mp3"
+    play sound "audio/bggtf/shame loud.mp3"
     show btggf cheeky
     btggf "So anyway yeah, I've done things I'm ashamed of."
 
@@ -59,7 +59,7 @@ label lilith_afternoon:
             show btggf loving
             btggf "AWOOGA!!"
         
-            play sound "audio/bggtf/gurgle.mp3"
+            play sound "audio/bggtf/gurgle ah.mp3"
             btggf "{i}gurgles{/i}"
             
             show btggf neutral

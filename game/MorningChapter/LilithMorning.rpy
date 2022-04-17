@@ -33,7 +33,7 @@ label lilith_morning:
         "Make a kind comment":
             p "You're so hot..."
 
-            play sound "audio/creepy.mp3"
+            play sound "audio/bggtf/creepy.mp3"
             l "You're being creepy..."
 
             show btggf neutral
