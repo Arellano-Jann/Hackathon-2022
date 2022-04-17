@@ -60,6 +60,7 @@ label start:
     p "{i}It's only college{/i}"
 
 
+
     # This ends the game.
 
     # retur_creditsn
