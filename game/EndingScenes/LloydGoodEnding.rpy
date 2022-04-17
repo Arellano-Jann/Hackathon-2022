@@ -1,5 +1,5 @@
 label lloyd_good_ending:
-    #play background music
+    play music "audio/George Michael - Careless Whisper - instrumental.opus" fadein 0.5 volume .2
     scene kc night
     with fade
 
