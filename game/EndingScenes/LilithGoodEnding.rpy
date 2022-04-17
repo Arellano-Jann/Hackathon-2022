@@ -28,6 +28,7 @@ label lilith_good_ending:
 
     z "You did it... I'm so proud of you."
     z "The bare minimum!"
+    z "And with a big t....... goth girlfriend! no less! A BTGGF if you will."
     z "Good for you."
 
     jump end_credits
