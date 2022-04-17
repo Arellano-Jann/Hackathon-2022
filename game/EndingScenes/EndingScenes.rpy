@@ -1,15 +1,15 @@
 # label ending_scenes:
-#     if (lancaster_bad_flag):
+#     if (lancaster_flag):
 #         jump lancaster_bad_ending
-#     if (lancaster_good_flag):
+#     elif (!lancaster_flag):
 #         jump lancaster_good_ending
-#     if (lilith_bad_flag):
+#     elif (lilith_flag):
 #         jump lilith_bad_ending
-#     if (lilith_good_flag):
+#     elif (!lilith_flag):
 #         jump lilith_good_ending
-#     if (lloyd_bad_flag):
+#     elif (lloyd_flag):
 #         jump lloyd_bad_ending
-#     if (lloyd_neutral_flag):
+#     elif (lloyd_flag == 2):
 #         jump lloyd_neutral_ending
-#     if (lloyd_good_flag):
+#     elif (!lloyd_flag):
 #         jump lloyd_good_ending
