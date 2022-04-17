@@ -1,5 +1,5 @@
 label lilith_bad_ending:
-    #scene bg satanicritual
+    scene ritual
     play music "audio/mental trip.mp3"
 
     "..."
@@ -8,8 +8,7 @@ label lilith_bad_ending:
     "..."
     p "{i}Oh... my head hurts...{/i}"
 
-    #show btggf satan
-    show btggf angry
+    show btggf satanic
 
     play sound "audio/satan asmr.mp3"
     btggf "{i}Ave satanas...{/i}"

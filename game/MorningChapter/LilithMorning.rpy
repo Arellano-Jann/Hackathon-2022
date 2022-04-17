@@ -48,9 +48,11 @@ label lilith_morning:
 
     p "I'm sorry! Um... my name is [name]. What's yours?"
 
+    show btggf proud
     l "That's more like it."
 
     play sound "audio/mm soft.mp3"
+    show btggf neutral
     lil "I'm Lilith."
 
     show btggf cheeky
@@ -82,7 +84,7 @@ label lilith_morning:
             btggf "Thanks for dropping it."
 
     play sound "audio/mm soft.mp3"
-    #show btggf proud
+    show btggf proud
     btggf "Believe it or not, I'm an AMAZING artist."
 
     show btggf neutral

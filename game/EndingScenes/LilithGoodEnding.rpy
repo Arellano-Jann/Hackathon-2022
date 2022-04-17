@@ -1,5 +1,5 @@
 label lilith_good_ending:
-    scene bg joe night
+    scene joe night
     show btggf cheeky
     btggf "Back to where it all began, huh?"
     btggf "Just this morning..."
@@ -14,7 +14,6 @@ label lilith_good_ending:
     play sound "audio/awooga.mp3"
     btggf "Kiss me!"
 
-    #show btggf desperate
     play sound "audio/daddy.mp3"
     "..."
 
