@@ -1,4 +1,4 @@
-Sat Apr 16 19:19:39 2022
+Sat Apr 16 19:21:44 2022
 Windows-10-10.0.19041
 Ren'Py 7.4.11.2266
  
@@ -7,13 +7,9 @@ Bootstrap to the start of init.init took 0.16s
 Early init took 0.01s
 Loader init took 0.10s
 Loading error handling took 0.05s
-Loading script took 0.60s
-Loading save slot metadata. took 0.08s
+Loading script took 0.75s
+Loading save slot metadata. took 0.07s
 Loading persistent took 0.00s
-
-File "game/EveningChapter/LancasterEvening.rpy", line 1: expected statement.
-    from msilib.schema import EventMapping
-               ^
 
 File "game/script.rpy", line 42: expected statement.
     <<<<<<< HEAD

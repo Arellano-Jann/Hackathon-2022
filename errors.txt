@@ -2,10 +2,6 @@
 errors listed below, and try again.
 
 
-File "game/EveningChapter/LancasterEvening.rpy", line 1: expected statement.
-    from msilib.schema import EventMapping
-               ^
-
 File "game/script.rpy", line 42: expected statement.
     <<<<<<< HEAD
                 ^
@@ -19,4 +15,4 @@ File "game/script.rpy", line 47: expected statement.
                                                     ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Sat Apr 16 19:19:40 2022
+Sat Apr 16 19:21:45 2022
