@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/AfternoonChapter/Afternoon.rpy", line 7: end of line expected.
-    jump lloyd_afternoon)
-                        ^
+File "game/MorningChapter/LloydMorning.rpy", line 31: expected statement.
+    badpts++
+          ^
+
+File "game/MorningChapter/LloydMorning.rpy", line 37: expected statement.
+    goodpts++
+           ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Sat Apr 16 19:57:30 2022
+Sat Apr 16 20:29:37 2022
