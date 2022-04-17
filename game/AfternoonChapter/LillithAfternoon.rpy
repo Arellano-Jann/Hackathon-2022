@@ -40,6 +40,9 @@ label lilith_afternoon:
             show btggf angry
             btggf "Now you're going to pay."
 
+            $ lilith_flag = False
+            jump ending_scenes
+
         "Help her":
             play sound "audio/spit.mp3"
             "You spit in her mouth to make her feel better."
@@ -66,4 +69,5 @@ label lilith_afternoon:
     btggf "But I'd like to show you something..."
 
     $ lilith_evening_flag = True
+    $ lilith_flag = True
     jump evening

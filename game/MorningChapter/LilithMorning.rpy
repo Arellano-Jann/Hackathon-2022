@@ -72,7 +72,8 @@ label lilith_morning:
 
             btggf "You asked for it..."
 
-            jump lilith_bad_ending
+            $ lilith_flag = False
+            jump ending_scenes
 
         "Leave it alone and ask what her major is":
             play sound "audio/mm soft.mp3"
@@ -104,7 +105,8 @@ label lilith_morning:
             btggf "I knew it!"
             btggf "You asked for it..."
 
-            jump lilith_bad_ending
+            $ lilith_flag = False
+            jump ending_scenes
     
     p "Let's go right now!"
 
