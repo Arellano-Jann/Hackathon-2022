@@ -1,99 +1,126 @@
 <<<<<<< HEAD
-Sat Apr 16 20:52:04 2022
-Windows-10-10.0.19041
-Ren'Py 7.4.11.2266
- 
-
-Bootstrap to the start of init.init took 0.15s
-Early init took 0.01s
-Loader init took 0.09s
-Loading error handling took 0.03s
-Loading script took 0.35s
-Loading save slot metadata. took 0.03s
-Loading persistent took 0.00s
-
-File "game/MorningChapter/LloydMorning.rpy", line 10: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation.
-    zoom .5
-    ^
-DPI scale factor: 1.500000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.58s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1200)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 496.49'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1818, 1023) drawable=(1818, 1023)
-Maximum texture size: 4096x4096
+Sat Apr 16 21:33:56 2022
 =======
-Sat Apr 16 20:53:27 2022
+<<<<<<< HEAD
+Sat Apr 16 21:52:43 2022
+=======
+Sat Apr 16 21:08:38 2022
+>>>>>>> 401fac3eaffc875fc84c24680309d249cb0f8590
+>>>>>>> 71e4b441e4ac7378ea3437289576c97ca420b6f3
 Windows-10-10.0.19041
 Ren'Py 7.4.11.2266
  
 
-Bootstrap to the start of init.init took 0.07s
+Bootstrap to the start of init.init took 0.05s
 Early init took 0.00s
-Loader init took 0.06s
-Loading error handling took 0.03s
-Loading script took 0.82s
-Loading save slot metadata. took 0.01s
+<<<<<<< HEAD
+Loader init took 0.20s
+Loading error handling took 0.02s
+Loading script took 0.16s
+Loading save slot metadata. took 0.02s
+=======
+<<<<<<< HEAD
+Loader init took 0.12s
+Loading error handling took 0.01s
+Loading script took 0.14s
+Loading save slot metadata. took 0.02s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.08s
+Running init code took 0.04s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\An Asian\\AppData\\Roaming/RenPy/backups\\Hackathon-2022':
-Dump and make backups. took 0.09s
+Backing up script files to 'C:\\Users\\Kirin\\AppData\\Roaming/RenPy/backups\\Hackathon-2022':
+Dump and make backups. took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.01s
+DPI scale factor: 1.500000
+=======
+Loader init took 0.05s
+Loading error handling took 0.01s
+Loading script took 0.11s
+Loading save slot metadata. took 0.03s
+>>>>>>> 71e4b441e4ac7378ea3437289576c97ca420b6f3
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Kirin\\AppData\\Roaming/RenPy/backups\\Hackathon-2022':
+Dump and make backups. took 0.08s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.02s
+<<<<<<< HEAD
+DPI scale factor: 1.500000
+=======
 DPI scale factor: 1.000000
+>>>>>>> 401fac3eaffc875fc84c24680309d249cb0f8590
+>>>>>>> 71e4b441e4ac7378ea3437289576c97ca420b6f3
 nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.25s
+nvdrs: "Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.03s
+Init translation took 0.02s
 Build styles took 0.00s
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 71e4b441e4ac7378ea3437289576c97ca420b6f3
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.02s
-Prepare screens took 0.05s
+Prepare screens took 0.04s
+<<<<<<< HEAD
+=======
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.39s
+Interface start took 0.08s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
+primary display bounds: (0, 0, 2560, 1600)
 swap interval: 1 frames
 Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'NVIDIA GeForce RTX 3080/PCIe/SSE2'
-Version: '4.6.0 NVIDIA 497.29'
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Xe Graphics'
+Version: '4.6.0 - Build 27.20.100.8853'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1386, 780) drawable=(1386, 780)
+Screen sizes: virtual=(1920, 1080) physical=(2458, 1383) drawable=(2458, 1383)
+=======
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.05s
+>>>>>>> 71e4b441e4ac7378ea3437289576c97ca420b6f3
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.11s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 2560, 1600)
+swap interval: 1 frames
+Windowed mode.
+Vendor: 'Intel'
+Renderer: 'Intel(R) Iris(R) Xe Graphics'
+Version: '4.6.0 - Build 27.20.100.8853'
+Display Info: None
+<<<<<<< HEAD
+Screen sizes: virtual=(1920, 1080) physical=(1818, 1023) drawable=(1818, 1023)
+=======
+Screen sizes: virtual=(1920, 1080) physical=(1383, 778) drawable=(1383, 778)
+>>>>>>> 401fac3eaffc875fc84c24680309d249cb0f8590
+>>>>>>> 71e4b441e4ac7378ea3437289576c97ca420b6f3
 Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/EndingScenes/EndingScenes.rpy", line 2, in script
-    if (lancaster_flag):
-  File "renpy/ast.py", line 1898, in execute
-    if renpy.python.py_eval(condition):
-  File "renpy/python.py", line 2274, in py_eval
-    code = py_compile(code, 'eval')
-  File "renpy/python.py", line 835, in py_compile
-    raise e
-SyntaxError: invalid syntax (EndingScenes.rpy, line 4)
-
-While running game code:
-  File "game/EndingScenes/EndingScenes.rpy", line 2, in script
-    if (lancaster_flag):
-SyntaxError: invalid syntax (EndingScenes.rpy, line 4)
->>>>>>> 907d6f557a51d4f0556453a7c93bfb968d5a3055
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s

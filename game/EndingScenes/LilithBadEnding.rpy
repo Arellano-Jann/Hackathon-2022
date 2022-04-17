@@ -1,5 +1,5 @@
 label lilith_bad_ending:
-    #scene bg satanicritual
+    scene ritual
     play music "audio/mental trip.mp3"
 
     "..."
@@ -8,8 +8,7 @@ label lilith_bad_ending:
     "..."
     p "{i}Oh... my head hurts...{/i}"
 
-    #show btggf satan
-    show btggf angry
+    show btggf satanic
 
     play sound "audio/satan asmr.mp3"
     btggf "{i}Ave satanas...{/i}"
@@ -22,5 +21,11 @@ label lilith_bad_ending:
     play sound "audio/satan asmr.mp3"
     btggf "{i}...and accept my prayer...{/i}"
     btggf "{i}NEMA!{/i}"
+
+    scene black
+    with fade
+
+    z "Damn kiddo... got killed before I could kill you."
+    z "Not how this works, but alright. You lose either way!"
 
     jump end_credits
