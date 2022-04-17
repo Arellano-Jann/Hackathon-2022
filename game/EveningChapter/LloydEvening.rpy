@@ -43,10 +43,52 @@ label lloyd_evening:
 
         "Should I be grossed out?":
             $ badpts += 1
+            p "EEWW! Who would ever watch such things!"
+            play sound "audio/l/laugh.mp3" volume 2
+            lloyd "oh..uhh.. of course it wouldn't be me"
+            lloyd "It...it... it must've been one of my friends"
+            show lloyd neutral
+            play sound "audio/l/ahem.mp3" volume 1.5
+            play sound "audio/l/hold on.mp3" volume 2
+            lloyd "Hold up! You don't watch octopus videos?!?!"
+            lloyd "They are so informational!"
+            p "Uhhh... no they are not!"
+            p "They are like the worst videos anyone could ever see!"
+            lloyd "Then let's watch one so you become educated!"
+            p "Heck no! I'm not gonna be watching that!"
+            show lloyd angry
+            play sound "audio/l/ur disgusting.mp3" volume 2
+            lloyd "YOU KNOW WHAT!! I'M DONE WITH YOU!!"
+
+            jump lloyd_bad_ending
+            
 
 
         "I should get him to watch some with me":
+            p "We could...uhhh...you know..."
+            p "watch some videos"
             $ goodpts += 1
+            play music "audio/George Michael - Careless Whisper - instrumental.opus" fadein 0.5 volume .2
+            show lloyd happy
+            play sound "audio/l/u want to what.mp3"  volume 1.5
+            lloyd ".... I mean we could"
+            play sound "audio/l/i mean i guess.mp3"  volume 2
+            lloyd "totally, we could check out what it's about"
+            scene kc night
+            with fade
+            show lloyd uwu
+            play sound "audio/l/detail on tentacles2.mp3" volume 2
+            lloyd "..."
+            p "ohh...uhhh...yeaaa"
+            p "I guess.. I uhhh... never really noticed"
+            play sound "audio/l/dont think i saw that.mp3" volume 2
+            p "Nope...I don't think I have either"
+            play sound "audio/l/what have I got into.mp3" volume 2
+            lloyd "uhhh"
+            p "Well... uhhhh... that is something...."
+            play sound "audio/l/this seems like hentai.mp3" volume 1.5
+            lloyd "I...uhhh... think we've watched enough for now"
+            p "I totally agree"
 
 
     if(badpts > goodpts):
