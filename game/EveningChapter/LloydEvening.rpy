@@ -68,6 +68,7 @@ label lloyd_evening:
             p "We could...uhhh...you know..."
             p "watch some videos"
             $ goodpts += 1
+            play music "audio/George Michael - Careless Whisper - instrumental.opus" fadein 0.5 volume .2
             show lloyd happy
             play sound "audio/l/u want to what.mp3"  volume 1.5
             lloyd ".... I mean we could"
