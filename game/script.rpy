@@ -9,7 +9,7 @@ define btggf = Character("BTGGF")
 define lloyd = Character("Lloyd")
 define dL = Character("Dr. Canlaster")
 define p = Character("[name]")
-define z = Character("Zeus")
+define z = Character("Zeus", image="zeus")
 default lancaster_flag = False
 default lilith_flag = False
 default lloyd_flag = False
@@ -39,6 +39,10 @@ label start:
     stop music fadeout 1.0
 
     # Dream...
+    scene galaxy
+    with fade
+
+    show zeus
     z "[name]! [name]!"
     z "You lonely, lonely disgraceful disappointment!"
     z "I sentence!!! I sentence YOU!"
