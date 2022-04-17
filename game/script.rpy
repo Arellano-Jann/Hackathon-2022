@@ -30,7 +30,7 @@ init:
 # The game starts here by asking user name.
 # https://sonalsart.com/how-do-i-enter-text-in-renpy/#:~:text=How%20do%20I%20enter%20text%20in%20Renpy%3F%20With,be%20saved%20in%20a%20variable%20or%20otherwise%20processed.
 label start:
-    play music "audio/misato.opus" fadein 0.5
+    play music "audio/misato.opus" fadein 0.5 volume .1
     # asks user for their name
     $ name = renpy.input("Hello, before we begin, What is your name?")
     $ name = name.strip()
