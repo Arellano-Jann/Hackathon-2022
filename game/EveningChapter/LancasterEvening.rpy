@@ -1,5 +1,2 @@
-from msilib.schema import EventMapping
-
-
-label lancaster_evening:
-    jump evening
+# label lancaster_evening:
+#     jump evening
