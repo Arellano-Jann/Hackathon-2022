@@ -1,19 +1,39 @@
 label lancaster_good_ending:
-    # He rejects you politely and gives you an A+ in every course he teaches.
-    
-    # show lancaster on zoom
-    # play sound 
-    # lancaster *are you a freshman or a senior* *what's your gpa?*
-    # lancaster "I'm sorry I can't return your feelings but"
-    # lancaster *hey you know what* "I can give you an A+ to boost your gpa"
-    # lancaster "just call me at the end of the semester and ill do it" *call me ill do it*
-    # lancaster *okay so* "does that sound good?"
-    
-    # player menu
-        # player "thank you so much! you're the best professor i know"
-        # player "yes!!!! thank you so much!!!"
-        # player "i appreciate it my guyyyy"
-        
-    
-    
+    scene zoom morning
+    with fade
+
+    show dl happy
+    dL "Good morning, [name]."
+
+    play sound "audio/d/gpa.mp3"
+    show dl neutral
+    dL "So what's your gpa?"
+
+    p "I'll admit that it's not very good..."
+
+    dL "I understand."
+
+    play sound "audio/d/wewannahavecontroloverthat.mp3"
+    dL "We want to have control over that."
+
+    play sound "audio/d/right.mp3"
+    dL "Right, tell you what."
+    dL "Because of your efforts, I will give you an A in my classes."
+
+    show dl happy
+    dL "You deserve it, [name]!"
+
+    play sound "audio/d/talk about things.mp3"
+    show dl neutral
+    dL "I appreciate your honesty."
+
+    scene galaxy
+    with fade
+
+    show zeus
+    z "Good for you! ...except you didn't get a date."
+    z "Although... I suppose I'll be kind today."
+    z "After all, you learned the lesson of honesty!"
+    z "I'll call it a win."
+
     jump end_credits

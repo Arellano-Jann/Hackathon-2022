@@ -9,7 +9,7 @@ define btggf = Character("BTGGF")
 define lloyd = Character("Lloyd")
 define dL = Character("Dr. Canlaster")
 define p = Character("[name]")
-define z = Character("Zeus")
+define z = Character("Zeus", image="zeus")
 default lancaster_flag = False
 default lilith_flag = False
 default lloyd_flag = False
@@ -31,17 +31,18 @@ init:
 # https://sonalsart.com/how-do-i-enter-text-in-renpy/#:~:text=How%20do%20I%20enter%20text%20in%20Renpy%3F%20With,be%20saved%20in%20a%20variable%20or%20otherwise%20processed.
 label start:
     play music "audio/misato.opus" fadein 0.5 volume .25
-    # asks user for their name
+
+    # Asks user for name
     $ name = renpy.input("Hello, before we begin, What is your name?")
     $ name = name.strip()
 
-    # Show a background. This uses a placeholder by default, but you can
-    # add a file (named either "bg room.png" or "bg room.jpg") to the
-    # images directory to show it.
-    scene kc morning
-    with fade
+    stop music fadeout 1.0
 
     # Dream...
+    scene galaxy
+    with fade
+
+    show zeus
     z "[name]! [name]!"
     z "You lonely, lonely disgraceful disappointment!"
     z "I sentence!!! I sentence YOU!"
@@ -50,9 +51,12 @@ label start:
     z "Turned to ashes and forever forgotten"
     z "[name]! [name]! YOU HAVE BEEN WARNED!!"
 
-    # should fade to black
-    scene black
+    # Bedroom
+    scene blue bedroom2
     with fade
+
+    # play audio [ "<silence .5>", "audio/misato.opus" ] fadein 1 volume .2
+    play music "audio/misato.opus" fadein 1 volume .2
 
     # wakes up in bedroom, remember to put in pic
     p "{i}huhhhh...{/i}"
@@ -100,7 +104,7 @@ label end_credits:
     "Jann Arellano, Lyssie Brown, Rubi Dionisio, Kirin Hardinger, and Alex Mozqueda"
     "Art and Design by Lyssie Brown and Kirin Hardinger"
     "BTGGF Voice: Kirin Hardinger"
-    "Lloyd Voic: Lloyd Gonzales"
+    "Lloyd Voice: Lloyd Gonzales"
     "Programming by the BTC LLC"
     "Gitmaster: Jann Arellano"
     "Emotional support by Connor the Cow and Huckleberry the Giraffe"

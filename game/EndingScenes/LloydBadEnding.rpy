@@ -1,5 +1,5 @@
 label lloyd_bad_ending:
-    #play background music
+    play music "audio/Tetris_Marker 05.mp3" fadein 0.5 volume .2
     scene kc night
     with fade
 
@@ -33,9 +33,10 @@ label lloyd_bad_ending:
     lloyd "So yeah..."
     lloyd "You should leave now."
 
-    scene black
+    scene galaxy
     with fade
 
+    show zeus
     z "Really? He offers to show you his octopus anime?"
     z "And you LOSE?"
     z "To THAT???"

@@ -18,9 +18,10 @@ label lilith_bad_ending:
     btggf "{i}...and accept my prayer...{/i}"
     btggf "{i}NEMA!{/i}"
 
-    scene black
+    scene galaxy
     with fade
 
+    show zeus
     z "Damn kiddo... got killed before I could kill you."
     z "Not how this works, but alright. You lose either way!"
 
