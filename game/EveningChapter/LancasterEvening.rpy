@@ -1,4 +1,5 @@
 label lancaster_evening:
+    play music "audio/AC_DC - You Shook Me All Night Long (Instrumental).opus" fadein 0.5 volume .2
     scene kc night
     with fade
 

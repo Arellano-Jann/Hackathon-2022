@@ -1,4 +1,6 @@
 label lancaster_bad_ending:
+    play music "audio/Simple Minds - Don't you forget about me (instrumental).opus" fadein 0.5 volume .2
+
     scene black
     with fade
 
