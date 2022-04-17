@@ -27,8 +27,10 @@ label lancaster_good_ending:
     show dl neutral
     dL "I appreciate your honesty."
 
+    # Zeus
     scene galaxy
     with fade
+    play music "audio/thunder.opus" fadein 1 volume .2
 
     show zeus
     z "Good for you! ...except you didn't get a date."

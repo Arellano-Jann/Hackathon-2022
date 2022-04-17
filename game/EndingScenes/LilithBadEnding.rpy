@@ -20,6 +20,7 @@ label lilith_bad_ending:
 
     scene galaxy
     with fade
+    play music "audio/thunder.opus" fadein 1 volume .2
 
     show zeus
     z "Damn kiddo... got killed before I could kill you."
