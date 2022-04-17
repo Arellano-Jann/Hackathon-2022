@@ -92,7 +92,7 @@ label start:
             p "{i}Might as well grab some food at the Joe or something{/i}"
             jump lilith_morning
 
-    # retur_creditsn
+    return
 
 
 label end_credits:
