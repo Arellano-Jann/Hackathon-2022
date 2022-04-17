@@ -1,6 +1,6 @@
 label lilith_morning:
-    scene bg joe morning
-    play music "audio/stardewheavy.opus"
+    scene joe morning
+    play music "audio/stardew.opus" fadein 0.5
     
     play sound "audio/ugh.mp3"
     show btggf angry
@@ -30,7 +30,7 @@ label lilith_morning:
             play sound "audio/phase dad.mp3"
             l "You sound just like my dad."
 
-        "Make  a kind comment":
+        "Make a kind comment":
             p "You're so hot..."
 
             play sound "audio/creepy.mp3"
@@ -56,7 +56,7 @@ label lilith_morning:
     show btggf cheeky
     lil "But everyone calls me the... 'btggf'..."
 
-    play sound "audio/cant even.mp3"
+    play sound "audio/ugh.mp3"
     show btggf angry
     btggf "Don't ask why."
 
@@ -80,7 +80,7 @@ label lilith_morning:
             show btggf neutral
             btggf "Thanks for dropping it."
 
-    play sound "audio/artist believe.mp3"
+    play sound "audio/mm soft.mp3"
     #show btggf proud
     btggf "Believe it or not, I'm an AMAZING artist."
 
