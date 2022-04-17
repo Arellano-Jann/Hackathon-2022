@@ -12,8 +12,10 @@ label lancaster_bad_ending:
     play sound "audio/d/but leave it alone.mp3"
     dL "So leave it alone."
 
+    # Zeus
     scene galaxy
     with fade
+    play music "audio/thunder.opus" fadein 1 volume .2
 
     show zeus
     z "How disappointing..."

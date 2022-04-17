@@ -35,6 +35,7 @@ label lloyd_bad_ending:
 
     scene galaxy
     with fade
+    play music "audio/thunder.opus" fadein 1 volume .2
 
     show zeus
     z "Really? He offers to show you his octopus anime?"

@@ -30,7 +30,8 @@ init:
 # The game starts here by asking user name.
 # https://sonalsart.com/how-do-i-enter-text-in-renpy/#:~:text=How%20do%20I%20enter%20text%20in%20Renpy%3F%20With,be%20saved%20in%20a%20variable%20or%20otherwise%20processed.
 label start:
-    play music "audio/misato.opus" fadein 0.5 volume .25
+    # play audio [ "<silence .5>", "audio/misato.opus" ] fadein 1 volume .2
+    play music "audio/misato.opus" fadein 1 volume .2
 
     # Asks user for name
     $ name = renpy.input("Hello, before we begin, What is your name?")
@@ -39,10 +40,10 @@ label start:
     stop music fadeout 1.0
 
     # Dream...
-    play music "audio/thunder.mp3" fadein 0.5 volume .25
     scene galaxy
     with fade
-
+    play music "audio/thunder.opus" fadein 1 volume .2
+    
     show zeus
     z "[name]! [name]!"
     z "You lonely, lonely disgraceful disappointment!"
@@ -55,9 +56,7 @@ label start:
     # Bedroom
     scene blue bedroom2
     with fade
-
-    # play audio [ "<silence .5>", "audio/misato.opus" ] fadein 1 volume .2
-    play music "audio/misato.opus" fadein 1 volume .2
+    play music "audio/misato.opus" fadein 0.5 volume .25
 
     # wakes up in bedroom, remember to put in pic
     p "{i}huhhhh...{/i}"
