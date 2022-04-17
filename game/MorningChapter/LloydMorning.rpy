@@ -28,13 +28,13 @@ label lloyd_morning:
         lloyd "I can help you out some other time though"
 
         "He needs to help me now!":
-            badpts++
+            # badpts += 1
             p "You have to help me, I don't care, you are super smart so you don't need to do physics"
             show lloyd angry
             lloyd "You are so rude! Fine! But this is the last time I will ever help you!"
         
         "Try to convince him, he's a busy man":
-            goodpts++
+            # goodpts += 1
             p "But I would really appreciate it, you are literally the smartest person in the entire world!"
             show lloyd uwu
             #play sound oh i'm not that smart
