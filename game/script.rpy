@@ -10,6 +10,18 @@ define lloyd = Character("Lloyd")
 define dL = Character("Dr. Lancaster")
 define p = Character("[name]")
 define z = Character("Zeus")
+default lancaster_flag = False
+default lilith_flag = False
+default lloyd_flag = False
+default lancaster_morning_flag = False
+default lilith_morning_flag = False
+default lloyd_morning_flag = False
+default lancaster_afternoon_flag = False
+default lilith_afternoon_flag = False
+default lloyd_afternoon_flag = False
+default lancaster_evening_flag = False
+default lilith_evening_flag = False
+default lloyd_evening_flag = False
 
 # Background
 init:
