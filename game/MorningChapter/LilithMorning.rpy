@@ -72,7 +72,7 @@ label lilith_morning:
 
             btggf "You asked for it..."
 
-            jump to lilith_bad_ending
+            jump lilith_bad_ending
 
         "Leave it alone and ask what her major is":
             play sound "mm soft.mp3"
@@ -83,8 +83,8 @@ label lilith_morning:
     #show btggf proud
     btggf "Believe it or not, I'm an AMAZING artist."
 
+    show btggf neutral
     menu:
-        show btggf neutral
         btggf "Do you maybe want to grab food sometime? I can show you my work."
 
         "Yes":
@@ -104,7 +104,7 @@ label lilith_morning:
             btggf "I knew it!"
             btggf "You asked for it..."
 
-            jump to lilith_bad_ending
+            jump lilith_bad_ending
     
     p "Let's go right now!"
 
@@ -116,4 +116,4 @@ label lilith_morning:
     show btggf neutral
     btggf "Let me put my docs on... my doc martens?"
 
-    jump to lilith_afternoon
+    jump lilith_afternoon

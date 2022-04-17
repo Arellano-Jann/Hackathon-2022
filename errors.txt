@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 43: expected 'image_name_component' not found.
-    scene "#000000"
-          ^
+File "game/MorningChapter/LilithMorning.rpy", line 87: expected menuitem
+    show btggf neutral
+    ^
 
 Ren'Py Version: Ren'Py 7.4.11.2266
-Sat Apr 16 17:27:29 2022
+Sat Apr 16 18:58:31 2022
