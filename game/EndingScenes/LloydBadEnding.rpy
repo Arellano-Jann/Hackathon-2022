@@ -43,7 +43,7 @@ label lloyd_bad_ending:
     z "To THAT???"
     z "You really are hopeless..."
 
-    play sound "audio/btggf/amogus.mp3"
+    play sound "audio/bggtf/amogus.mp3"
     z "I have to eject the imposter."
 
     jump end_credits
